@@ -21,6 +21,6 @@ int main(void){
     printf("딸기쨈 : %s\n", fruit, "jam");
 
    // fruit = "banana"; //사용불가
-   strcpy(fruit, "banana");
-   printf("%s\n", fruit);
+    strcpy(fruit, "banana");
+    printf("%s\n", fruit);
 }

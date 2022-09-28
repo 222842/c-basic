@@ -28,7 +28,18 @@
 */
 int main(void)
 {
-    int num = 4;
-    /* code */
+    int a;      // int형 변수 a 선언
+    int b, c;   //int형 변수 b와 c를 동시에 선언
+    double da;  // double형 변수 da 선언
+    char ch;    // char형 변수 ch 선언
+
+    a = 10;     // a변수에 정수 10을 대입
+    b = a;      // b변수에 a변수의 값을 대입
+    c = a + 20; // c 변수에 a 변수의 값 +20 을 대입
+    ch = 'A';   //ch변수에 문자 'A' 대입
+
+  
+
+
     return 0;
 }

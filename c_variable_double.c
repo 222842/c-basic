@@ -1,6 +1,6 @@
 /**
  * 실수형
- *   + float, double, long double
+ *   + float(7), double(15), long double(15개 이상)
  *   + 값의 범위보다 유효숫자(소수점) 갯수가 중요
  *   + 정수형을 기본으로, 실수형은 꼭 필요한 경우만 사용
  *   + 실수형은 유효 숫자가 많은 double형을 기본으로 사용
@@ -13,5 +13,5 @@ int main(void) {
     // 예상 출력 1.23456789012345678900
     printf("float형 변수 값 : %.20f\n", ft);
     printf("double형 변수 값 : %.20f\n", db);
-    
+
 }
