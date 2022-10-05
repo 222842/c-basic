@@ -9,6 +9,8 @@ int main(void){
     sum = a + b;
     sub = a - b;
     mul = a * b;
-    inv = -a;
-    
+    inv = -a;  //  a: +10 / -a: -10
+
+    printf("%d", inv);
+
 }
