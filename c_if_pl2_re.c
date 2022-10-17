@@ -24,7 +24,7 @@ int main(void) {
         printf("학생의 점수는 %d점으로 %c학점입니다.", score, grade);
     } else {
         // 점수: 0점 미만 또는 100점 초과
-        printf("ERROR: 0~100점 사이에 값을 입려하세요.");
+        printf("ERROR: 0~100점 사이에 값을 입력하세요.");
     }
         
     }
